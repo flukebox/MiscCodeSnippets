@@ -41,13 +41,13 @@ ES_DOC_TYPE = "master"
 DENT_RS = 25
 
 ## To get the order reports file 
-ORDERS_DUMP_ZIP = "http://zinka-prod.s3.amazonaws.com/uploads/export_report/2017_09_12/order-reports_12_09_2017_22_49.csv.zip"
+ORDERS_DUMP_ZIP = ""
 
 LOCAL_FILE="order-reports_11_10_2017_22_44.csv.zip"
 
-PREPROD_ALB_URL = "http://pricing-exch.alb.prebb.net"
-PREPROD_URL = "http://52.77.211.221:8080"
-PROD_URL = "http://pricing-exch.alb.jinka.in"
+PREPROD_ALB_URL = ""
+PREPROD_URL = ""
+PROD_URL = ""
 
 SET_AUTOPRICE_API = "pricing-exch/v2/algoprices/current_price"
 SET_CURRENTPRICE_API = "pricing-exch/v2/current_price"
